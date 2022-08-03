@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int opcion;
+    printf("Elija una de la siguientes opciones: \n \
+            1. Si desea que lo saludemos. \n \
+            2. Si no desea que lo saludemos: \n \
+            --> ");
+    scanf("%d", &opcion);
+    if (opcion == 1)
+        printf("Hola mundo desde este repo");
+    else if (opcion == 2)
+        printf("El silencio es una virtud de los sabios");
+    else
+        printf("Ninguna de las opciones es correcta, hasta pronto");
+}
